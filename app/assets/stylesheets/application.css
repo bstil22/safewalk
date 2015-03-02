@@ -10,10 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require mapbox/mapbox.uncompressed.css
  *= require_tree .
  *= require_self
  */
-*= require mapbox
 body { margin:0;
       padding:0;
 }
